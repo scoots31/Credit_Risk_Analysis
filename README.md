@@ -19,11 +19,15 @@ Using the 75/25% method to split the data for training vs. testing, 51,366 "low 
 
 ### Oversampling
 
+RandomOverSampler: 65.9% accuracy, 1% precision, 72% recall and 2% F1 Score
+
 ![Screen Shot 2022-03-27 at 7 40 03 PM](https://user-images.githubusercontent.com/93485455/160308618-ec4b5a9e-793b-4c36-a0ff-1f02be365ad9.png)
 ![Screen Shot 2022-03-27 at 7 43 25 PM](https://user-images.githubusercontent.com/93485455/160308786-49d09624-c87e-4cdd-b8d3-b08cbf6129dc.png)
 
 
 ### SMOTE Oversampling
+
+SMOTE: 66.2% accuracy, 1% precision, 63% recall and 2% F1 Score
 
 ![Screen Shot 2022-03-27 at 7 41 38 PM](https://user-images.githubusercontent.com/93485455/160308689-1b5f3779-c034-447f-afd6-a60c609505f8.png)
 ![Screen Shot 2022-03-27 at 7 42 43 PM](https://user-images.githubusercontent.com/93485455/160308747-83798947-9945-40ef-9aea-00554380d4f2.png)
@@ -31,10 +35,14 @@ Using the 75/25% method to split the data for training vs. testing, 51,366 "low 
 
 ### Undersampling
 
+ClusterCentroids: 54.5% accuracy, 1% precision, 69% recall and 1% F1 Score
+
 ![Screen Shot 2022-03-27 at 7 44 44 PM](https://user-images.githubusercontent.com/93485455/160308844-fc6789e0-76c4-40dc-a625-57a48067a72d.png)
 ![Screen Shot 2022-03-27 at 7 45 22 PM](https://user-images.githubusercontent.com/93485455/160308884-e2e10a41-c0af-40cd-916f-5cd6467a536e.png)
 
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
+
+SMOTEENN: 64.5% accuracy, 1% precision, 72% recall and 2% F1 Score
 
 ![Screen Shot 2022-03-27 at 7 50 33 PM](https://user-images.githubusercontent.com/93485455/160309179-775135d6-2c24-479f-bc86-ea5b50166d12.png)
 ![Screen Shot 2022-03-27 at 7 50 49 PM](https://user-images.githubusercontent.com/93485455/160309187-8c7b2800-8d42-46b0-be60-67fa52d26827.png)
@@ -43,17 +51,28 @@ Using the 75/25% method to split the data for training vs. testing, 51,366 "low 
 
 ### BalancedRandomForestClassifier
 
+BalancedRandomForestClassifer: 78.9% accuracy, 3% precision, 70% recall and 6% F1 Score
+
 ![Screen Shot 2022-03-27 at 8 12 30 PM](https://user-images.githubusercontent.com/93485455/160310490-8a6ecfb3-e596-487b-a953-00a22ac4026b.png)
 ![Screen Shot 2022-03-27 at 8 12 48 PM](https://user-images.githubusercontent.com/93485455/160310506-ddc6a591-d8b8-4246-8eec-9a8c6f897b91.png)
 ![Screen Shot 2022-03-27 at 8 13 45 PM](https://user-images.githubusercontent.com/93485455/160310515-0f0e80cf-bf5d-4059-8785-1c0acbec8624.png)
 
 ### EasyEnsembleClassifier
 
+BalancedRandomForestClassifer: 78.9% accuracy, 3% precision, 70% recall and 6% F1 Score
+
 ![Screen Shot 2022-03-27 at 8 15 36 PM](https://user-images.githubusercontent.com/93485455/160310607-11911eb5-38c8-4059-be37-646359986bf7.png)
 ![Screen Shot 2022-03-27 at 8 15 58 PM](https://user-images.githubusercontent.com/93485455/160310614-b42d2387-2838-4798-bf86-c5c69aa112f1.png)
 
 ## Summary
 
+Ranking of models in descending order based on "High Risk" results:
 
+BalancedRandomForestClassifer: 78.9% accuracy, 3% precision, 70% recall and 6% F1 Score
+BalancedRandomForestClassifer: 78.9% accuracy, 3% precision, 70% recall and 6% F1 Score
+SMOTE: 66.2% accuracy, 1% precision, 63% recall and 2% F1 Score
+RandomOverSampler: 65.9% accuracy, 1% precision, 72% recall and 2% F1 Score
+SMOTEENN: 64.5% accuracy, 1% precision, 72% recall and 2% F1 Score
+ClusterCentroids: 54.5% accuracy, 1% precision, 69% recall and 1% F1 Score
 
 
