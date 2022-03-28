@@ -41,18 +41,18 @@ Using the 75/25% method to split the data for training vs. testing, 51,366 "low 
 
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
-## BalancedRandomForestClassifier
+### BalancedRandomForestClassifier
 
 ![Screen Shot 2022-03-27 at 8 12 30 PM](https://user-images.githubusercontent.com/93485455/160310490-8a6ecfb3-e596-487b-a953-00a22ac4026b.png)
 ![Screen Shot 2022-03-27 at 8 12 48 PM](https://user-images.githubusercontent.com/93485455/160310506-ddc6a591-d8b8-4246-8eec-9a8c6f897b91.png)
 ![Screen Shot 2022-03-27 at 8 13 45 PM](https://user-images.githubusercontent.com/93485455/160310515-0f0e80cf-bf5d-4059-8785-1c0acbec8624.png)
 
-## EasyEnsembleClassifier
+### EasyEnsembleClassifier
 
 ![Screen Shot 2022-03-27 at 8 15 36 PM](https://user-images.githubusercontent.com/93485455/160310607-11911eb5-38c8-4059-be37-646359986bf7.png)
 ![Screen Shot 2022-03-27 at 8 15 58 PM](https://user-images.githubusercontent.com/93485455/160310614-b42d2387-2838-4798-bf86-c5c69aa112f1.png)
 
-
+## Summary
 
 
 
